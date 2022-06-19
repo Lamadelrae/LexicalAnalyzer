@@ -10,7 +10,7 @@ public class FinalState : IIdentityState
 
     public static FinalState Error => new FinalState("error");
 
-    public static FinalState Accept => new FinalState("accept");
+    public static FinalState Space => new FinalState("space");
 
     public static FinalState Integer => new FinalState("integer");
 

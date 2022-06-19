@@ -15,7 +15,7 @@ try
             state = ((IFunctionalState)state).GetNext(token);
         }
 
-        if (state is IIdentityState identityState && identityState.Name != FinalState.Accept.Name)
+        if (state is IIdentityState identityState && identityState.Name != FinalState.Space.Name)
         {
             Console.WriteLine($"\n {identityState.Name}: {token.Word}");
         }

@@ -42,6 +42,6 @@ public class InitialState : IFunctionalState
             }
         }
 
-        return FinalState.Accept;
+        return FinalState.Space;
     }
 }
